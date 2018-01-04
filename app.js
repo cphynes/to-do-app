@@ -71,7 +71,7 @@ function onReady() {
 
     });
 
-    addToDoForm.addEventListener('submit', event =>{
+    addToDoForm.addEventListener('submit', event => {
       event.preventDefault();
       createNewToDo();
       localStorage.setItem('array',(JSON.stringify(toDos)));
